@@ -12,3 +12,4 @@ const people = ["ayesha", "farah", "bilal", "usman", "musa"];
 const greeting = "hello";
 
 module.exports = { people, greeting };
+// new comment
