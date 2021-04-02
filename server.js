@@ -1,7 +1,15 @@
 const http = require("http");
 const fs = require("fs");
+const _=require('lodash')
 const server = http.createServer((req, res) => {
-  console.log(req.url, req.method);
+ //lodash the .random will give us a random number between the two specified values
+ const num = _.random(0,20);
+ console.log(num);
+ //the once method will only ever allow the function to be called once. nomatter how many times it is called.
+ //you put the function inside it like so:
+ const greet=_.once(()=>console.log('hello world'))
+ greet()
+ greet()
   // set header content type.
   res.setHeader("Content-Type", "text/html");
   // set an html file
