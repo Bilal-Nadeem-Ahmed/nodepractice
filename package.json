@@ -1,0 +1,26 @@
+{
+  "name": "nodepractice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bilal-Nadeem-Ahmed/nodepractice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bilal-Nadeem-Ahmed/nodepractice/issues"
+  },
+  "homepage": "https://github.com/Bilal-Nadeem-Ahmed/nodepractice#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
